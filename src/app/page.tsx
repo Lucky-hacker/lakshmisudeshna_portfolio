@@ -94,7 +94,7 @@ export default function Home() {
               <div className="space-y-4 text-foreground/80 leading-relaxed">
                 <p>
                   I&apos;m {hero.title.split(' ').slice(-1)[0]}, a passionate full-stack developer currently pursuing Computer Science 
-                  at IIIT&apos;s Autonomous College with an impressive previous year 8.64 CGPA.
+                  at IIIT&apos;College with an impressive previous year 8.64 CGPA.
                 </p>
                 <p>
                   My journey in technology spans from cybersecurity to modern web development, 
@@ -263,7 +263,6 @@ export default function Home() {
           <p className="mt-2 text-foreground/80">Have an idea, role, or collaboration? Let&apos;s talk.</p>
           <div className="mt-6 flex gap-3 flex-wrap">
             <Link href="/contact" className="px-5 py-3 rounded-lg bg-secondary text-white neon">Contact Form</Link>
-            <a href={links.portfolio} target="_blank" className="px-5 py-3 rounded-lg bg-card text-primary border border-white/10">Old Portfolio</a>
           </div>
         </div>
       </section>
@@ -311,9 +310,6 @@ export default function Home() {
                 <Link href="/contact" className="block text-foreground/70 hover:text-accent transition-colors">
                   Contact
                 </Link>
-                <Link href="/resume" className="block text-foreground/70 hover:text-accent transition-colors">
-                  Resume
-                </Link>
                 <a href={links.github} target="_blank" className="block text-foreground/70 hover:text-accent transition-colors">
                   GitHub
                 </a>
@@ -351,7 +347,7 @@ export default function Home() {
           <div className="border-t border-white/5 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
             <div className="text-sm text-foreground/50">
               <HoverScramble 
-                text={`© ${new Date().getFullYear()} Kuncham Venkata Satya Manikanta. Built with Next.js & TypeScript.`}
+                text={`© ${new Date().getFullYear()} DArshaboina Lakshmi sudeshna. Built with Next.js & TypeScript.`}
                 className="transition-colors hover:text-foreground/70"
               />
             </div>

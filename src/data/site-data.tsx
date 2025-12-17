@@ -13,7 +13,6 @@ export type Language = { name: string; level: number };
 // Basic information and links
 export const links = {
   linkedin: "https://www.linkedin.com/in/lakshmisudeshna2035",
-  portfolio: "https://oibsip-ary8.vercel.app/",
   github: "https://github.com/Lucky-hacker",
   email: "mailto:lakshmisudheshana@gmail.com",
   phone: "tel:9347749117",

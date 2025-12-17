@@ -1,6 +1,5 @@
 export const links = {
   linkedin: "https://www.linkedin.com/in/lakshmisudeshna2035",
-  portfolio: "https://chatbot-info-by-monkey.vercel.app/",
   github: "https://github.com/Lucky-hacker",
 };
 
@@ -43,6 +42,5 @@ export const tech: TechGroup[] = [
 
 export const featured: Featured[] = [
   { title: "Web-Based SQL Query Builder", href: "#", desc: "Build SQL visually (React + Tailwind)." },
-  { title: "Portfolio Website", href: "https://chatbot-info-by-monkey.vercel.app/", desc: "Sleek skills showcase." },
   { title: "Wiki Clone", href: "https://monkey-wikipedia-clone-advanced.vercel.app/", desc: "Simple Wikipedia UI." },
 ];
