@@ -93,7 +93,7 @@ export default function Home() {
               </h2>
               <div className="space-y-4 text-foreground/80 leading-relaxed">
                 <p>
-                  I&apos;m {hero.title.split(' ').slice(-1)[0]}, a passionate full-stack developer currently pursuing Computer Science 
+                  I&apos;m {hero.title.split(' ').slice(-1)[0]}, a passionate full-stack developer currently pursuing Electronics and communication engineering
                   at IIIT&apos;College with an impressive previous year 8.64 CGPA.
                 </p>
                 <p>
@@ -347,7 +347,7 @@ export default function Home() {
           <div className="border-t border-white/5 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
             <div className="text-sm text-foreground/50">
               <HoverScramble 
-                text={`© ${new Date().getFullYear()} DArshaboina Lakshmi sudeshna. Built with Next.js & TypeScript.`}
+                text={`© ${new Date().getFullYear()} Darshaboina Lakshmi Sudeshna. Built with Next.js & TypeScript.`}
                 className="transition-colors hover:text-foreground/70"
               />
             </div>
